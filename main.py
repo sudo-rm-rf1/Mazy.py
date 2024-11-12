@@ -233,7 +233,7 @@ if __name__ == '__main__':
 
     screen = pygame.display.set_mode(disp_size)
 
-    pygame.display.set_caption('Maze Generator / KS 2022')
+    pygame.display.set_caption('Maze.py')
 
     running = True
 
@@ -305,7 +305,7 @@ if __name__ == '__main__':
 
                     block_size += 1
                     if block_size > min(rect[2], rect[3]) // 10:
-                        
+
                         block_size = min(rect[2], rect[3]) // 10
                     pausing = False
                 if event.key == pygame.K_ESCAPE:
